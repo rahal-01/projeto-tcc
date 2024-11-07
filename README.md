@@ -4,3 +4,5 @@
 
 # No Prompt do Anaconda Python digitar:
 python -m pip install -r requirements.txt
+
+https://github.com/igarashimassaki
