@@ -31,6 +31,8 @@ st.write(df.head(3))
 st.title("Valores Médios: ")
 col1, col2 = st.columns(2)
 with col1:
-st.title(f"Valor 1: {df['Valor1'].mean()}")
+    #st.title(f"Valor 1: {df['Valor1'].mean()}")
+    st.metric(label="Valor 1", value=df['Valor1'].mean(), delta=0.0, delta_color="inverse")
 with col2:
-st.title(f"Valor 2: {df['Valor2'].mean()}")
+    #st.title(f"Valor 2: {df['Valor2'].mean()}")
+    st.metric(label="Valor 1", value=df['Valor2'].mean(), delta=0.0, delta_color="inverse")
