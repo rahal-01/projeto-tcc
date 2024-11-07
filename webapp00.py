@@ -26,7 +26,7 @@ for i in range(len(db)):
 
 df = {'TimeStamp': db['DataHora'], 'Valor1': valor1, 'Valor2': valor2}
 df = pd.DataFrame(df)
-st.write(df.head(3))
+st.write(df.head(5))
 
 st.title("Valores Médios: ")
 col1, col2 = st.columns(2)
