@@ -5,8 +5,8 @@ from io import BytesIO
 import pandas as pd
 
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
-st.title("Dashboard Teste")
-st.header("Grupo Murilo & Colegas")
+st.title("Teste")
+st.header("TCC ISAQUE E RAHAL")
 
 urlCSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSVj0iXQ8PdpQ4qQ6wpM8rjWqHy4a39SP6eYRgShS41DioSHbYuvMnoRSNOKVAzoKLcft1cTeMkisct/pub?gid=1162276461&single=true&output=csv"
 rD = requests.get(urlCSV)
