@@ -29,5 +29,8 @@ df = pd.DataFrame(df)
 st.write(df.head(3))
 
 st.title("Valores Médios: ")
+col1, col2 = st.columns(2)
+with col1:
 st.title(f"Valor 1: {df['Valor1'].mean()}")
+with col2:
 st.title(f"Valor 2: {df['Valor2'].mean()}")
