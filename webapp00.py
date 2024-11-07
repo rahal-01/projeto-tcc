@@ -8,7 +8,7 @@ import pandas as pd
 st.title("Dashboard Teste")
 st.header("Grupo Murilo & Colegas")
 
-urlCSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQruiuZivFX_wDz-2aFue5__5Wu0ua6gZHU77lNNEUb2IUhx0MExIKzvfjBFFDUP-awXC8rKoX7LXEQ/pub?output=csv"
+urlCSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSVj0iXQ8PdpQ4qQ6wpM8rjWqHy4a39SP6eYRgShS41DioSHbYuvMnoRSNOKVAzoKLcft1cTeMkisct/pub?gid=1162276461&single=true&output=csv"
 rD = requests.get(urlCSV)
 dataD = rD.content
 db = pd.read_csv(BytesIO(dataD))
